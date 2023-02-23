@@ -9,7 +9,7 @@ const PlanetsSlider = props => {
   const {planetsList} = props
 
   return (
-    <div className="app-container">
+    <div className="app-container" testid='planets'>
       <h1 className="heading">PLANETS</h1>
       <Slider>
         {planetsList.map(planetItem => (
